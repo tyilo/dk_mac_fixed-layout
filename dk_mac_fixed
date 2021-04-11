@@ -1,0 +1,11 @@
+partial alphanumeric_keys
+xkb_symbols "basic" {
+	include "dk(mac_nodeadkeys)"
+	name[Group1]= "Danish (Fixed Macintosh, no dead keys)";
+
+	key <TLDE> { [ dollar, section, threequarters, paragraph ] };
+	key <AE04> { [ 4, EuroSign ] };
+	key <AE07> { [ 7, slash, braceleft, backslash ] };
+	key <AD08> { [ i, I, bar, idotless ] };
+	key <BKSL> { [apostrophe, asterisk, at, multiply ] };
+};
